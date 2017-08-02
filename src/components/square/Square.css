@@ -1,0 +1,29 @@
+.square {
+    background: #fff;
+    border: 1px solid rgba(153, 153, 153, 0.67);
+    box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.67);
+    float: left;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(69,69,69);
+    text-shadow: rgba(42, 42, 42, 0.72) 2px 2px 3px;
+    line-height: 108px;
+    height: 108px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 108px;
+    transition: 0.5s ease background;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.square:hover {
+    background: #ddd;
+}
+.x-piece {
+    color: rgb(82, 100, 127)
+}

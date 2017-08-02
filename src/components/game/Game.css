@@ -1,0 +1,43 @@
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.game-info {
+    margin-left: 20px;
+}
+
+
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.status {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #626262;
+}
+.move {
+    list-style: none;
+    padding: 5px;
+    border: 1px solid #9b9b9b;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align:center;
+}
+.move a {
+    text-decoration: none;
+    color: #646464
+}
+.move.current {
+    background: #e6e6e6;
+}
+.move.current a {
+    font-weight: bold;
+    color: #2e2e2e
+}
